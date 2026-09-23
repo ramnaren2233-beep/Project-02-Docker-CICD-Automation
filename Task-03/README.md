@@ -13,8 +13,6 @@
 
 ## Screenshots
 
-### Folder: `Task-03/screenshots/`
-
 01-dockerignore.png  
 02-secure-dockerfile-final.png  
 03-secure-image-build.png  
