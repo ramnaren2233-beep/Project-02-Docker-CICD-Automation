@@ -11,18 +11,19 @@
 | 7 | Application Verification | Verified that the Kanban application runs successfully in the browser. | `07-browser-app.png` | ✅ Completed |
 | 8 | Security Scan | Scanned the Docker image using Trivy. The scan reported 0 vulnerabilities and 0 secrets. | `08-security-scan.png` | ✅ Completed |
 
----
+## Screenshots
 
-# Screenshots
+### Folder: `Task-03/screenshots/`
 
-01-dockerignore.png
-02-secure-dockerfile-final.png
-03-secure-image-build.png
-04-docker-image.png
-05-container-running.png
-06-non-root-user.png
-07-browser-app.png
-08-security-scan.png
-Final Status
+01-dockerignore.png  
+02-secure-dockerfile-final.png  
+03-secure-image-build.png  
+04-docker-image.png  
+05-container-running.png  
+06-non-root-user.png  
+07-browser-app.png  
+08-security-scan.png  
 
-Task 03 — Docker Security: COMPLETED ✅
+## Task 03 Status
+
+**✅ TASK 03 COMPLETED**
