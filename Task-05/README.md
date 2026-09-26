@@ -1,24 +1,23 @@
-
 ## Task 5 – AWS Infrastructure
 
-| No. | What I Did | Implementation | Status |
-|---:|---|---|---|
-| 1 | Launched an EC2 instance using Amazon Linux 2023 | Created and configured the AWS EC2 server | ✅ Done |
-| 2 | Installed Docker on the EC2 instance | Installed Docker and verified the Docker service | ✅ Done |
-| 3 | Installed Jenkins on the EC2 instance | Installed Jenkins and configured the Jenkins service | ✅ Done |
-| 4 | Configured the Security Group with required ports – 22, 8080 and 80 | Allowed SSH, Jenkins and application traffic | ✅ Done |
-| 5 | Started and verified Jenkins service as Active (running) | Verified Jenkins using `systemctl status jenkins` | ✅ Done |
-| 6 | Verified Jenkins UI through port 8080 | Accessed Jenkins using the EC2 Public IP and port 8080 | ✅ Done |
-| 7 | Started and verified the Docker application container | Started the application container and verified using `docker ps` | ✅ Done |
-| 8 | Verified the Kanban Task Manager application through port 80 | Accessed the application using the EC2 Public IP on port 80 | ✅ Done |
-| 9 | Verified Jenkins and the running Docker application container on the same EC2 instance | Confirmed Jenkins and the Docker container are running on the same EC2 server | ✅ Done |
+| No. | Work Completed | Status |
+|---:|---|---|
+| 1 | EC2 Instance – Amazon Linux 2023 | ✅ Completed |
+| 2 | Docker Installation | ✅ Completed |
+| 3 | Jenkins Installation | ✅ Completed |
+| 4 | Security Group – Required Ports | ✅ Completed |
+| 5 | Jenkins Service – Active & Running | ✅ Completed |
+| 6 | Jenkins UI – Port 8080 | ✅ Completed |
+| 7 | Docker App Container – Running | ✅ Completed |
+| 8 | App Accessible – Port 80 | ✅ Completed |
+| 9 | Jenkins + App Container on Same EC2 | ✅ Completed |
 
 ### Screenshots
 
 | Screenshot | Evidence | Status |
 |---:|---|---|
-| 1 | EC2 Instance – Amazon Linux 2023 | ✅ |
-| 2 | Security Group – Required Ports | ✅ |
+| 1 | EC2 Instance / Amazon Linux 2023 | ✅ |
+| 2 | Security Group Ports | ✅ |
 | 3 | Docker Installation | ✅ |
 | 4 | Jenkins Installation / Status | ✅ |
 | 5 | Jenkins UI – Port 8080 | ✅ |
