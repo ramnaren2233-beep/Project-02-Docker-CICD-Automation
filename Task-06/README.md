@@ -1,6 +1,6 @@
 # Task 6 – Jenkins Configuration
 
-| # | Activity | Status |
+| No | Activity | Status |
 |---|---|---|
 | 1 | Installed required Jenkins plugins – Git, Docker Pipeline and Credentials Binding | ✅ Completed |
 | 2 | Connected Jenkins with the GitHub repository | ✅ Completed |
