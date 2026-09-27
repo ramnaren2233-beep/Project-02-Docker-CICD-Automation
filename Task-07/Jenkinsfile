@@ -20,7 +20,7 @@ pipeline {
 
         stage('docker build') {
             steps {
-                sh "docker build -t ${DOCKER_USER}/${IMAGE_NAME}:${BUILD_NUMBER} ."
+                sh "docker build -f Task-07/Dockerfile -t \${DOCKER_USER}/${IMAGE_NAME}:${BUILD_NUMBER} Task-07/"
             }
         }
 
