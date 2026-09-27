@@ -1,7 +1,6 @@
-
 # Task 6 – Jenkins Configuration
 
-| No | Activity | Status |
+| # | What I Did | Status |
 |---|---|---|
 | 1 | Installed required Jenkins plugins – Git, Docker Pipeline and Credentials Binding | ✅ Completed |
 | 2 | Connected Jenkins with the GitHub repository | ✅ Completed |
@@ -13,23 +12,16 @@
 | 8 | Verified the Jenkins Pipeline build completed successfully | ✅ Completed |
 | 9 | Verified that no secrets were exposed in the Jenkinsfile or console output | ✅ Completed |
 
----
-
 ## Screenshots
 
-### Screenshot 1 – Jenkins Required Plugins Installed
-
-### Screenshot 2 – GitHub Repository Connected to Jenkins
-
-### Screenshot 3 – Jenkins Credentials Store
-
-### Screenshot 4 – Jenkins Pipeline Job Configuration
-
-### Screenshot 5 – Jenkins Pipeline Build – SUCCESS
-
-### Screenshot 6 – Jenkins Console Output
-
----
+| # | Screenshot |
+|---|---|
+| 1 | Jenkins Required Plugins Installed |
+| 2 | GitHub Repository Connected to Jenkins |
+| 3 | Jenkins Credentials Store |
+| 4 | Jenkins Pipeline Job Configuration |
+| 5 | Jenkins Pipeline Build – SUCCESS |
+| 6 | Jenkins Console Output |
 
 ## Task 6 Completed ✅
 
