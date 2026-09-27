@@ -15,12 +15,8 @@ pipeline {
 
         stage('Docker Build & Tag') {
             steps {
-                script {
-                    env.IMAGE_TAG = "${env.BUILD_NUMBER}"
 
-                    sh """
-                        docker build -t kanban-dashboard:${IMAGE_TAG} .
-                    """
+                 sh 'docker build -t kanban-dashboard:${BUILD_NUMBER} .'
                 }
             }
         }
