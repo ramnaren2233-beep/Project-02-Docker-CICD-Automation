@@ -16,17 +16,17 @@
 
 ## Screenshots
 
-### Screenshot 1 – Jenkins Required Plugins Installed
+### Jenkins Required Plugins Installed
 
-### Screenshot 2 – GitHub Repository Connected to Jenkins
+### GitHub Repository Connected to Jenkins
 
-### Screenshot 3 – Jenkins Credentials Store
+### Jenkins Credentials Store
 
-### Screenshot 4 – Jenkins Pipeline Job Configuration
+### Jenkins Pipeline Job Configuration
 
-### Screenshot 5 – Jenkins Pipeline Build – SUCCESS
+### Jenkins Pipeline Build – SUCCESS
 
-### Screenshot 6 – Jenkins Console Output
+### Jenkins Console Output
 
 ---
 
