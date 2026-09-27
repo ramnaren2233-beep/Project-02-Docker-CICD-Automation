@@ -1,41 +1,44 @@
 pipeline {
     agent any
-    
+
     options {
         skipDefaultCheckout(true)
     }
 
     environment {
-        DOCKER_USER = 'naren2026aws'
-        IMAGE_NAME  = 'kanban-dashboard'
+        DOCKER_USER = 'narenaws2026'
+        IMAGE_NAME = 'kanban-dashboard'
     }
-    
+
     stages {
+
         stage('checkout source') {
             steps {
                 checkout scm
             }
         }
-        
-        stage('docker build + tag with build number/git SHA') {
+
+        stage('docker build') {
             steps {
                 sh "docker build -t ${DOCKER_USER}/${IMAGE_NAME}:${BUILD_NUMBER} ."
             }
         }
-        
-        stage('registry login + push') {
+
+        stage('registry login and push') {
             steps {
-                withCredentials([usernamePassword(
-                    credentialsId: 'docker-hub-credentials',
-                    passwordVariable: 'PASS',
-                    usernameVariable: 'USER'
-                )]) {
-                    sh "echo ${PASS} | docker login -u ${USER} --password-stdin"
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'docker-hub-credentials',
+                        usernameVariable: 'USER',
+                        passwordVariable: 'PASS'
+                    )
+                ]) {
+                    sh 'echo "$PASS" | docker login -u "$USER" --password-stdin'
                     sh "docker push ${DOCKER_USER}/${IMAGE_NAME}:${BUILD_NUMBER}"
                 }
             }
         }
-        
+
         stage('deploy to EC2') {
             steps {
                 sh "docker stop ${IMAGE_NAME}-container || true"
@@ -43,25 +46,22 @@ pipeline {
                 sh "docker run -d -p 80:80 --name ${IMAGE_NAME}-container ${DOCKER_USER}/${IMAGE_NAME}:${BUILD_NUMBER}"
             }
         }
-        
-        stage('health check new container') {
+
+        stage('health check') {
             steps {
                 sleep 5
-                sh "curl -f http://localhost:80"
+                sh 'curl -f http://localhost:80'
             }
         }
     }
-    
+
     post {
         success {
-            echo "Pipeline successfully completed! Container is healthy."
+            echo 'Pipeline successfully completed! Container is healthy.'
         }
+
         failure {
-            echo "Health check failed! Triggering rollback to previous version..."
-            sh "docker stop ${IMAGE_NAME}-container || true"
-            sh "docker rm ${IMAGE_NAME}-container || true"
-            sh "docker run -d -p 80:80 --name ${IMAGE_NAME}-container ${DOCKER_USER}/${IMAGE_NAME}:latest || echo 'Rollback image not found'"
+            echo 'Pipeline failed.'
         }
     }
 }
-```
