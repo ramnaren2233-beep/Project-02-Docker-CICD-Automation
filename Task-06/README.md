@@ -1,3 +1,4 @@
+
 # Task 6 – Jenkins Configuration
 
 | No | Activity | Status |
@@ -16,17 +17,17 @@
 
 ## Screenshots
 
-### Jenkins Required Plugins Installed
+### Screenshot 1 – Jenkins Required Plugins Installed
 
-### GitHub Repository Connected to Jenkins
+### Screenshot 2 – GitHub Repository Connected to Jenkins
 
-### Jenkins Credentials Store
+### Screenshot 3 – Jenkins Credentials Store
 
-### Jenkins Pipeline Job Configuration
+### Screenshot 4 – Jenkins Pipeline Job Configuration
 
-### Jenkins Pipeline Build – SUCCESS
+### Screenshot 5 – Jenkins Pipeline Build – SUCCESS
 
-### Jenkins Console Output
+### Screenshot 6 – Jenkins Console Output
 
 ---
 
