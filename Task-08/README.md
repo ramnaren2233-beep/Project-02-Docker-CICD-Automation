@@ -10,11 +10,14 @@
 
 ## Screenshots
 
-### Screenshots Folder
-- `01-Jenkins-Webhook-URL.png`
-- `02-GitHub-Webhook-Settings.png`
-- `03-Automatic-Jenkins-Trigger.png`
-- `04-Jenkins-Auto-Build.png`
-- `05-Automatic-Deployment.png`
+**Screenshots Folder:** `Task-8-GitHub-Webhook-Screenshots/`
+
+| # | Screenshot Name |
+|---|---|
+| 1 | `01-Jenkins-Webhook-URL.png` |
+| 2 | `02-GitHub-Webhook-Settings.png` |
+| 3 | `03-Automatic-Jenkins-Trigger.png` |
+| 4 | `04-Jenkins-Auto-Build.png` |
+| 5 | `05-Automatic-Deployment.png` |
 
 ## Task 8 – Completed ✅
