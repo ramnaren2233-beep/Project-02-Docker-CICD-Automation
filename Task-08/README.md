@@ -12,7 +12,7 @@
 
 **Screenshots Folder:** `Task-8-GitHub-Webhook-Screenshots/`
 
-| # | Screenshot Name |
+| No | Screenshot Name |
 |---|---|
 | 1 | `01-Jenkins-Webhook-URL.png` |
 | 2 | `02-GitHub-Webhook-Settings.png` |
