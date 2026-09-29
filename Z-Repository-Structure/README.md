@@ -1,4 +1,4 @@
-# 🚀 Project 02 - Docker-CI/CD-Automation
+# 🚀 Project 02 - Docker-CICD-Automation
 
 ## 📚 Project Documentation
 
