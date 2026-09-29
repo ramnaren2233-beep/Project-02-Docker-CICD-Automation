@@ -2,10 +2,10 @@
 
 ## 📋 Project Deliverables & Links
 
-| No | Deliverable | Link / Details |
+| # | Deliverable | Link / Details |
 |---|---|---|
 | 1 | **GitHub Repository URL** | https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation |
-| 2 | **Docker Hub Repository URL** | **naren2026aws / kanban-dashboard** <br> [👉 Click Here to View Repository](https://hub.docker.com/repository/docker/naren2026aws/kanban-dashboard/general) |
+| 2 | **Docker Hub Repository URL** | https://hub.docker.com/repository/docker/naren2026aws/kanban-dashboard/general |
 | 3 | **Application URL (AWS EC2 Public IP)** | http://13.201.128.79 |
 
 ---
@@ -14,7 +14,7 @@
 
 This repository contains the full step-by-step implementation from **Task-01 to Task-12**, including all required configurations and execution evidence.
 
-| No | Task | Description |
+| # | Task | Description |
 |---|---|---|
 | 1 | **Task-01 to Task-10** | Initial Setup, Source Code Management, Build, and Jenkins Pipeline configurations |
 | 2 | **Task-11 – Docker Resource Limits** | Configuration and proof for restricting Container Memory to **512MB** and CPU to **1 CPU** |
@@ -33,7 +33,7 @@ This repository contains the full step-by-step implementation from **Task-01 to 
 
 ## 📸 Task Screenshots & Evidence
 
-| No | Task | Evidence |
+| # | Task | Evidence |
 |---|---|---|
 | 1 | **Task-01 to Task-10** | Configuration, build, deployment, and CI/CD execution evidence |
 | 2 | **Task-11** | Docker Resource Limits – Memory **512MB**, CPU **1 CPU** |
