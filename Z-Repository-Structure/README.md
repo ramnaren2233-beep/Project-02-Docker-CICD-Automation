@@ -76,4 +76,3 @@ Project-02-Docker-CICD-Automation/
 └── 📁 Task-12/
     ├── 📄 README.md
     └── 📄 Jenkinsfile
-
