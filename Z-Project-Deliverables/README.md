@@ -5,7 +5,7 @@
 | # | Deliverable | Link / Details |
 |---|---|---|
 | 1 | **GitHub Repository URL** | https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation |
-| 2 | **Docker Hub Public Repository** | `docker push naren2026aws/kanban-dashboard:tagname` |
+| 2 | **Docker Hub Public Repository** | https://hub.docker.com/r/naren2026aws/kanban-dashboard |
 | 3 | **Application URL (AWS EC2 Public IP)** | http://13.201.128.79 |
 
 ---
