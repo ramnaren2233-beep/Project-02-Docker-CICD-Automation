@@ -1,6 +1,6 @@
 # Task 11 – Docker Resource Limits
 
-| # | What I Did | Status |
+| No | What I Did | Status |
 |---|---|---|
 | 1 | Set memory limit using Docker `--memory` | ✅ Completed |
 | 2 | Set CPU limit using Docker `--cpus` | ✅ Completed |
@@ -10,7 +10,7 @@
 
 ### Screenshot Names
 
-| # | Screenshot Name |
+| No | Screenshot Name |
 |---|---|
 | 1 | `01-Docker-Memory-Limit.png` |
 | 2 | `02-Docker-CPU-Limit.png` |
