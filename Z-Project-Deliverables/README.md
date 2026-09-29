@@ -5,7 +5,7 @@
 | No | Deliverable | Link / Details |
 |---|---|---|
 | 1 | **GitHub Repository URL** | https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation |
-| 2 | **Docker Hub Repository URL** | https://hub.docker.com/repository/docker/naren2026aws/kanban-dashboard/general |
+| 2 | **Docker Hub Repository URL** | **naren2026aws / kanban-dashboard** <br> [👉 Click Here to View Repository](https://docker.com) |
 | 3 | **Application URL (AWS EC2 Public IP)** | http://13.201.128.79 |
 
 ---
@@ -24,7 +24,7 @@ This repository contains the full step-by-step implementation from **Task-01 to 
 
 ## 📄 Core Configuration Files
 
-| No | Configuration File | Purpose |
+| # | Configuration File | Purpose |
 |---|---|---|
 | 1 | **Dockerfile** | Used for containerizing the Kanban Dashboard application |
 | 2 | **Jenkinsfile** | Defines the automated Continuous Integration & Continuous Deployment pipeline logic |
