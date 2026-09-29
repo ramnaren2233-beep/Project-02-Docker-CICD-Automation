@@ -4,7 +4,7 @@
 
 ### 🔗 Quick Links
 
-| # | Deliverable | URL |
+| No | Deliverable | URL |
 |---:|---|---|
 | 1 | **GitHub Repository** | [GitHub Repository](https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation) |
 | 2 | **Docker Hub Repository** | [Docker Hub Repository](https://hub.docker.com/r/naren2026aws/kanban-dashboard) |
@@ -14,7 +14,7 @@
 
 ## 🗺️ Documentation Flow
 
-| # | Task | Documentation |
+| No | Task | Documentation |
 |---:|---|---|
 | 1 | **Task 1** | [📖 Task 1 Documentation](https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation/blob/main/Task-01/README.md) |
 | 2 | **Task 2** | [📖 Task 2 Documentation](https://github.com/ramnaren2233-beep/Project-02-Docker-CICD-Automation/blob/main/Task-02/README.md) |
